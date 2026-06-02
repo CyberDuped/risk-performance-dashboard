@@ -1,1 +1,11 @@
 labenv/
+# Power BI auto files
+*.pbip
+*.pbit
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
