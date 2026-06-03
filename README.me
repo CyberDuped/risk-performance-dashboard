@@ -62,19 +62,25 @@ Includes:
 
 ## 📁 **Repository Structure**
 
-
+```text
 risk-performance-dashboard/
 │
 ├── 01_data/
-│   ├── _raw/          # Original data files
-│   └── cleaned/      # Cleaned/standardized data used in Power BI
+│   ├── _raw/                      # Original data files
+│   └── cleaned/                   # Cleaned/standardized data used in Power BI
 │
 ├── 02_pbix/
 │   └── risk_performance_dashboard.pbix   # Power BI dashboard file
 │
 ├── documentation/
-│   ├── data_dictionary.md
-│   ├── dashboard_overview.md
-│   └── kpi_definitions.md
+│   ├── data_dictionary.md         # Field definitions for all dataset columns
+│   ├── dashboard_overview.md      # Explanation of dashboard pages and purpose
+│   ├── kpi_definitions.md         # KPI logic, formulas, and business meaning
+│   └── screenshots/               # Dashboard images used in README + docs
+│       ├── page1_1overview.png
+│       ├── page1_kpis.png
+│       └── page1_table.png
 │
 └── README.md
+
+
